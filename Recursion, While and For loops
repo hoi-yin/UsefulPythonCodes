@@ -1,4 +1,4 @@
-1. Recursion, While and For loops (Standard Example Formats. Can be modified and changed as needed)
+Recursion, While and For loops (Standard Example Formats. Can be modified and changed as needed)
 
 A. Recursion
 def recursion(A,n):
@@ -42,13 +42,13 @@ def while3(A,n):
     return product
 
 C. For
-def for (A,n):
+def for1 (A,n):
     result = A
     for i in range ( n ):
         result = result + i
     return result
 
-def for (A,n):
+def for2 (A,n):
     //Initializing result//
     result = A
     //Run i = 0,1,2,...,n-1//
@@ -57,3 +57,24 @@ def for (A,n):
         result = result + i
     //Returning final result//
     return result
+
+D. break and continue
+break => break and stop the loop
+continue => stop at the point of command and go on to the next loop.
+
+def for1 (A,n):
+    result = A
+    for i in range ( n ):
+        result = result + i
+        if result > 60 :
+            break
+    return result
+//Play the for loop. If result > 60, stop the loop and return current result//
+def for2 (A,n):
+    result = A
+    for i in range ( n ):
+        if result == 60 :
+            continue
+        result = result + i
+    return result
+//Play the for loop. If result == 60, stop the current loop and go on to the next loop//
