@@ -1,0 +1,8 @@
+1. Tuple
+x = (1, 2)
+//Tuple of Tuples//
+y = ((1,2),(3,4)) 
+
+2. Tuple getting
+x[0] -> 1
+y[1][1] -> 4
