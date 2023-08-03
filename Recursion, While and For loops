@@ -47,3 +47,13 @@ def for (A,n):
     for i in range ( n ):
         result = result + i
     return result
+
+def for (A,n):
+    //Initializing result//
+    result = A
+    //Run i = 0,1,2,...,n-1//
+    for i in range ( n ):
+        //Reassigning result to a new modified one with each step of the for loop. You can do almost anything to result.//
+        result = result + i
+    //Returning final result//
+    return result
