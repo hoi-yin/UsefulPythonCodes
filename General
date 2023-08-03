@@ -1,0 +1,42 @@
+1. Recursion, While and For loops (Standard Example Formats. Can be modified and changed as needed)
+
+A. Recursion
+def recursion(A,n):
+    if n==1:
+        return A
+    elif n>1:
+        return recursion(A,n-1)
+
+def recursion(A,n):
+    //Terminating Condition//
+    if n==1:
+        return A
+    //Reoccuring function//
+    elif n>1:
+        return recursion(A,n-1)
+
+B. While
+def while1(A,n):
+    product,counter = A,n
+    while counter >= 1:
+        product = product + counter
+        counter = counter - 1
+    return product
+
+def while2(A,n):
+    product,counter = A,1
+    while counter <= n:
+        product = product + counter
+        counter = counter + 1
+    return product
+
+def while3(A,n):
+    //Initializing product and counter//
+    product,counter = A,1
+    //Setting condition for loop to continue and eventually stop//
+    while counter <= n:
+        //Reassigning product and counter to a new modified one with each step of the while loop. You can do almost anything to the product and counter.//
+        product = product + counter
+        counter = counter + 1
+    //Returning final product//
+    return product
