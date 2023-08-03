@@ -40,3 +40,10 @@ def while3(A,n):
         counter = counter + 1
     //Returning final product//
     return product
+
+C. For
+def for (A,n):
+    result = A
+    for i in range ( n ):
+        result = result + i
+    return result
