@@ -1,0 +1,29 @@
+1. Treat lambda as functions. For me, I treat it like f(x).
+
+lambda x : x * 2 
+f(x) = x * 2
+
+lambda x,y,z : x * y * z
+f(x,y,z) = x * y * z
+
+2. Examples
+A. Example 1
+def f(x):
+	return lambda y: x+y
+
+//Conversion//
+f(x)(y) = x + y
+
+B. Example 2
+def f(x):
+	return lambda y: lambda z: x+y+z
+
+//Conversion//
+f(x)(y)(z) = x+y+z
+
+C. Example 3
+def f(x):
+	return lambda y,z: x+y+z
+
+//Conversion//
+f(x)(y,z) = x+y+z
