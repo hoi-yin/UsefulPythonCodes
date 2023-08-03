@@ -1,0 +1,45 @@
+1. Type (To display type of item)
+type(123)
+type('123')
+
+2. Type conversion (To convert type of item if possible)
+str(123)
+float('45.2')
+int(23.8)
+
+3. Assignment
+x = 3
+x, y = 1, 2
+
+4. Operators
++ - * / ** // %
+> >= < <= == !=
+or and not 
+
+5. Truth logic
+True == 1
+False == 0
+
+6. Strings and slicing
+s ='ba'
+t ='ck'
+
+//Addition//
+s + t
+s + 'na' * 2
+
+//in//
+"z" in t
+
+//Comparison//
+'bananb' > t
+'banan' <= t
+'c' < t
+
+//Slicing//
+s = 'abcdef'
+s[0] (Output : "a")
+s[0:2] (Output : "ab")
+s[::2] (Output : "ace")
+
+
