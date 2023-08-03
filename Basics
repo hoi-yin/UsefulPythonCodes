@@ -52,7 +52,7 @@ elif a < 0:
 else:
   print('no')
 
-//Used in an example//
+//Used in an example function//
 def example(a):
   if a > 0:
     print('yes')
