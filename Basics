@@ -42,4 +42,23 @@ s[0] (Output : "a")
 s[0:2] (Output : "ab")
 s[::2] (Output : "ace")
 
+7. If Elif Else
+//Standard format//
+a = 3
+if a > 0:
+  print('yes')
+elif a < 0:
+  print('maybe')
+else:
+  print('no')
 
+//Used in an example//
+def example(a):
+  if a > 0:
+    print('yes')
+  elif a < 0:
+    print('maybe')
+  else:
+    print('no')
+
+example(3)
